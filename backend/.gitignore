@@ -4,6 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
+tmp/*
+!tmp/.gitkeep
+temp/
 
 # testing
 /coverage
