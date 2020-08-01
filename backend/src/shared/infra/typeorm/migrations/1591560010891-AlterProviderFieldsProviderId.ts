@@ -13,7 +13,7 @@ export default class AlterProviderFieldsProviderId1591560010891
             'appointments',
             new TableColumn({
                 name: 'provider_id',
-                type: 'varchar',
+                type: 'uuid',
                 isNullable: true,
             }),
         );
@@ -39,7 +39,7 @@ export default class AlterProviderFieldsProviderId1591560010891
             'appointments',
             new TableColumn({
                 name: 'provider',
-                type: 'varchar',
+                type: 'uuid',
             }),
         );
     }
